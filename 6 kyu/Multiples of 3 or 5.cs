@@ -11,20 +11,20 @@
 
 public static class Kata
 {
-  public static int Solution(int value)
-  {
-    int mult = 0;
-    for (int i = 0; i < value; i++){
-      if (i % 3 == 0){
-        mult += i;
-        continue;
-      } else if (i % 5 == 0){
-        mult += i;
-        continue;
-      } else {
-        continue;
-      }
+    public static int Solution(int value)
+    {
+        int mult = 0;
+        for (int i = 0; i < value; i++){
+            if (i % 3 == 0){
+                mult += i;
+                continue;
+            } else if (i % 5 == 0){
+                mult += i;
+                continue;
+            } else {
+                continue;
+            }
+        }
+        return mult;
     }
-    return mult;
-  }
 }
