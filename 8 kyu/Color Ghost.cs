@@ -12,10 +12,11 @@
 
 using System;
 
-public class Ghost{
-  string[] colorGhost = {"purple", "red", "white", "yellow"};
-  
-  public string GetColor(){
-    return colorGhost[new Random().Next(0, colorGhost.Length)];
-  }
+public class Ghost
+{
+    string[] colorGhost = {"purple", "red", "white", "yellow"};
+
+    public string GetColor(){
+        return colorGhost[new Random().Next(0, colorGhost.Length)];
+    }
 }
