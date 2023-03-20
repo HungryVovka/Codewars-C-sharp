@@ -3,8 +3,10 @@
 // (numbers and their sum fit in a byte), but it didn't work. Vasya was too sad to find out what is wrong. Help him to correct the mistake.
 // -----------------------------------------------------------
 
-public class FirstClass {
-  public static byte sum (byte a, byte b){
+public class FirstClass 
+{
+  public static byte sum (byte a, byte b)
+  {
     return (byte)(a + b);
   }
 }
