@@ -11,12 +11,15 @@
 
 using System;
 
-public class Cube{
-  private System.Int32 side = 0;
-  public System.Int32 GetSide(){
-    return side;
-  }
-  public void SetSide(System.Int32 num){
-    side = num;
-  }
+public class Cube
+{
+    private System.Int32 side = 0;
+    public System.Int32 GetSide()
+    {
+        return side;
+    }
+    public void SetSide(System.Int32 num)
+    {
+        side = num;
+    }
 }
