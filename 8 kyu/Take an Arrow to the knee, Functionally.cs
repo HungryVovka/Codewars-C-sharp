@@ -17,11 +17,13 @@
 using System;
 using System.Linq;
 
-public class Kata{
-  public static string ArrowFunc(int[] arr){
-    return string.Join("", arr.Select(
-      number => Tools.FromCharCode(number)).ToArray());
-  }
+public class Kata
+{
+    public static string ArrowFunc(int[] arr)
+    {
+        return string.Join("", arr.Select(
+            number => Tools.FromCharCode(number)).ToArray());
+    }
 }
 
 // or
@@ -29,8 +31,10 @@ public class Kata{
 using System;
 using System.Linq;
 
-public class Kata{
-  public static string ArrowFunc(int[] arr){
-    return string.Concat(arr.Select(number => (char)number));
-  }
+public class Kata
+{
+    public static string ArrowFunc(int[] arr)
+    {
+        return string.Concat(arr.Select(number => (char)number));
+    }
 }
