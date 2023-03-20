@@ -12,33 +12,33 @@
 
 public class Kata
 {
-  public static int DeepCount(object array)
-  {
-    int answer = 0;
-    object[] newArr = (object[])array;
-    foreach (object i in newArr){
-      if (i is object[]){
-        answer += DeepCount(i);
-      }
-      answer += 1;
+    public static int DeepCount(object array)
+    {
+        int answer = 0;
+        object[] newArr = (object[])array;
+        foreach (object i in newArr){
+            if (i is object[]){
+                answer += DeepCount(i);
+            }
+            answer += 1;
+        }
+        return answer;
     }
-    return answer;
-  }
 }
 
 // or
 
 public class Kata
 {
-  public static int DeepCount(object array)
-  {
-    object[] newArr = (object[])array;
-    int answer = newArr.Length;
-    for (int i = 0; i < newArr.Length; i++){
-      if (newArr[i] is object[]){
-        answer += DeepCount(newArr[i]);
-      }
+    public static int DeepCount(object array)
+    {
+        object[] newArr = (object[])array;
+        int answer = newArr.Length;
+        for (int i = 0; i < newArr.Length; i++){
+            if (newArr[i] is object[]){
+                answer += DeepCount(newArr[i]);
+            }
+        }
+        return answer;
     }
-    return answer;
-  }
 }
