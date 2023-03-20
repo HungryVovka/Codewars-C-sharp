@@ -11,8 +11,7 @@
 
 using System.Linq;
 
-public class Kata
-{
+public class Kata{
 	public static bool LetterCheck(string[] arr)
 	{
 		string a = arr[0].ToLower();
