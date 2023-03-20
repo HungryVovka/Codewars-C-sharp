@@ -16,9 +16,11 @@
 // (https://en.wikipedia.org/wiki/Century)
 // -----------------------------------------------------------
 
-public static class Kata{
-  public static int СenturyFromYear(int year){
-    int answer = (year - 1) / 100 + 1;
-    return answer;
-  }
+public static class Kata
+{
+    public static int СenturyFromYear(int year)
+    {
+        int answer = (year - 1) / 100 + 1;
+        return answer;
+    }
 }
