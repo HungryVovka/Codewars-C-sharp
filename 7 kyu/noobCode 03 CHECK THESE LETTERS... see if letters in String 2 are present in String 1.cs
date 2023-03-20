@@ -11,8 +11,10 @@
 
 using System.Linq;
 
-public class Kata{
-	public static bool LetterCheck(string[] arr){
+public class Kata
+{
+	public static bool LetterCheck(string[] arr)
+	{
 		string a = arr[0].ToLower();
 		string b = arr[1].ToLower();
 		return b.All(letter => a.Contains(letter));
