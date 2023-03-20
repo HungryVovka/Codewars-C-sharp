@@ -9,8 +9,10 @@
 // Courtesy of projecteuler.net (Problem 1)
 // -----------------------------------------------------------
 
-public static class Kata{
-  public static int Solution(int value){
+public static class Kata
+{
+  public static int Solution(int value)
+  {
     int mult = 0;
     for (int i = 0; i < value; i++){
       if (i % 3 == 0){
