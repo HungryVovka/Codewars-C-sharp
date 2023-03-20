@@ -10,8 +10,10 @@
 // The input will always be an array.
 // -----------------------------------------------------------
 
-public class Kata{
-  public static int DeepCount(object array){
+public class Kata
+{
+  public static int DeepCount(object array)
+  {
     int answer = 0;
     object[] newArr = (object[])array;
     foreach (object i in newArr){
@@ -26,8 +28,10 @@ public class Kata{
 
 // or
 
-public class Kata{
-  public static int DeepCount(object array){
+public class Kata
+{
+  public static int DeepCount(object array)
+  {
     object[] newArr = (object[])array;
     int answer = newArr.Length;
     for (int i = 0; i < newArr.Length; i++){
