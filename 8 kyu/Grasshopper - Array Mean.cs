@@ -21,8 +21,10 @@
 using System;
 using System.Linq;
 
-public class GrassHopper {
-  public static int FindAverage(int[] nums){
-    return (System.Int32)nums.Average();
-  }
+public class GrassHopper 
+{
+    public static int FindAverage(int[] nums)
+    {
+        return (System.Int32)nums.Average();
+    }
 }
