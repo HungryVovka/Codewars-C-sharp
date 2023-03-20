@@ -16,10 +16,12 @@
 
 using System;
 
-namespace CubeCheck{
-  public class CubeChecker{
-    public bool IsCube(double volume, double side){
-      return 0.0 < volume && volume == Math.Pow(side, 3);
+namespace CubeCheck
+{
+    public class CubeChecker
+    {
+        public bool IsCube(double volume, double side){
+            return 0.0 < volume && volume == Math.Pow(side, 3);
+        }
     }
-  }
 }
