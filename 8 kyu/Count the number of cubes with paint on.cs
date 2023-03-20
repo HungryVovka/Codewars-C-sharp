@@ -14,18 +14,20 @@
 
 using System;  
   
-public static class Kata{
-  public static int CountSquares(int cuts){
-    return cuts == 0 ? 1 : (int)Math.Pow((double)cuts, 2) * 6 + 2;
-  }
+public static class Kata
+{
+    public static int CountSquares(int cuts){
+        return cuts == 0 ? 1 : (int)Math.Pow((double)cuts, 2) * 6 + 2;
+    }
 }
 
 // or
 
 using System;  
   
-public static class Kata{
-  public static int CountSquares(int cuts){
-    return cuts == 0 ? 1 : cuts * cuts * 6 + 2;
-  }
+public static class Kata
+{
+    public static int CountSquares(int cuts){
+        return cuts == 0 ? 1 : cuts * cuts * 6 + 2;
+    }
 }
