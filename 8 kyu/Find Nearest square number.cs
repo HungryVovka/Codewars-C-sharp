@@ -22,19 +22,19 @@ using System;
 
 public static class Kata
 {
-  public static int NearestSq(int n)
-  {
-    int sqBefore = (int)Math.Pow(Math.Floor(Math.Sqrt(n)), 2);
-    int sqAfter = (int)Math.Pow(Math.Floor(Math.Sqrt(n) + 1), 2);
-    if (Math.Abs(n - sqBefore) < Math.Abs(n - sqAfter))
-    {
-      return sqBefore;
-    }
-    else
-    {
-      return sqAfter;
-    }
-  }
+	public static int NearestSq(int n)
+	{
+		int sqBefore = (int)Math.Pow(Math.Floor(Math.Sqrt(n)), 2);
+		int sqAfter = (int)Math.Pow(Math.Floor(Math.Sqrt(n) + 1), 2);
+		if (Math.Abs(n - sqBefore) < Math.Abs(n - sqAfter))
+		{
+			return sqBefore;
+		}
+		else
+		{
+			return sqAfter;
+		}
+	}
 }
 
 // or
@@ -43,8 +43,8 @@ using System;
 
 public static class Kata
 {
-  public static int NearestSq(int n)
-  {
-    return (int)Math.Pow(Math.Round(Math.Sqrt(n)), 2);
-  }
+	public static int NearestSq(int n)
+	{
+		return (int)Math.Pow(Math.Round(Math.Sqrt(n)), 2);
+	}
 }

@@ -13,17 +13,17 @@
 
 public class Kata
 {
-  public static string ChromosomeCheck(string sperm)
-  {
-    string kid = "";
-    if (sperm == "XY")
-    {
-      kid = "son";
-    }
-    else if (sperm == "XX")
-    {
-      kid = "daughter";
-    }
-    return $"Congratulations! You're going to have a {kid}.";
-  }
+	public static string ChromosomeCheck(string sperm)
+	{
+		string kid = "";
+		if (sperm == "XY")
+		{
+			kid = "son";
+		}
+		else if (sperm == "XX")
+		{
+			kid = "daughter";
+		}
+		return $"Congratulations! You're going to have a {kid}.";
+	}
 }
