@@ -34,7 +34,7 @@ This file is part of the HungryVovka/Codewars-C-sharp
 (https://github.com/HungryVovka/Codewars-C-sharp)
 
 License is GNU General Public License v3.0
-(https://github.com/HungryVovka/Codewars-C/blob/main/LICENSE)
+(https://github.com/HungryVovka/Codewars-C-sharp/blob/main/LICENSE)
 
 You should have received a copy of the GNU Lesser Public License
 along with this code. If not, see http://www.gnu.org/licenses/
